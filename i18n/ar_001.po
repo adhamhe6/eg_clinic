@@ -1,0 +1,664 @@
+#. module: eg_clinic
+#. odoo-python
+#: code:addons/eg_clinic/models/doctor.py:0
+#, python-format
+msgid "%s (Copy)"
+msgstr "%s (نسخة)"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_form
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_form
+msgid "<span class=\"o_stat_text\">Appointments</span>"
+msgstr "<span class=\"o_stat_text\">المواعيد</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid ""
+"<span>\n"
+"                                                            <strong>Age:</strong>\n"
+"                                                        </span>"
+msgstr ""
+"<span>\n"
+"                                                            <strong>العمر:</strong>\n"
+"                                                        </span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid ""
+"<span>\n"
+"                                                            <strong>Reference:</strong>\n"
+"                                                        </span>"
+msgstr ""
+"<span>\n"
+"                                                            <strong>المرجع:</strong>\n"
+"                                                        </span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_id_card
+msgid ""
+"<span>\n"
+"                                                        <strong>Age:</strong>\n"
+"                                                    </span>"
+msgstr ""
+"<span>\n"
+"                                                        <strong>العمر:</strong>\n"
+"                                                    </span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_id_card
+msgid ""
+"<span>\n"
+"                                                        <strong>Reference:</strong>\n"
+"                                                    </span>"
+msgstr ""
+"<span>\n"
+"                                                        <strong>المرجع:</strong>\n"
+"                                                    </span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_id_card
+msgid "<span>:</span>"
+msgstr "<span>:</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid "<span>Age</span>"
+msgstr "<span>العمر</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid "<span>Appointment Details</span>"
+msgstr "<span>تفاصيل الموعد</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid "<span>Doctor</span>"
+msgstr "<span>الطبيب</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid "<span>Reference</span>"
+msgstr "<span>المرجع</span>"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.report_patient_detail
+msgid "<strong>Total Appointments</strong>"
+msgstr "<strong>إجمالي المواعيد</strong>"
+
+#. module: eg_clinic
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_appointment__gender__female
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_doctor__gender__female
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_patient__gender__female
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Female"
+msgstr "أنثى"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_female_patients
+#: model:ir.ui.menu,name:eg_clinic.menu_female_patients
+msgid "Female Patients"
+msgstr "المرضى الإناث"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_follower_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_follower_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_follower_ids
+msgid "Followers"
+msgstr "متابعون"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_partner_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_partner_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "متابعون (شركاء)"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__activity_type_icon
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__activity_type_icon
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة Font Awesome مثل fa-tasks"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__gender
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__gender
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__gender
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_kanban
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_kanban
+msgid "Gender:"
+msgstr "الجنس:"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__has_message
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__has_message
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: eg_clinic
+#: model:ir.ui.menu,name:eg_clinic.menu_hospital_root
+msgid "Hospital"
+msgstr "المستشفى"
+
+#. module: eg_clinic
+#: model:ir.model,name:eg_clinic.model_hospital_appointment
+msgid "Hospital Appointment"
+msgstr "موعد المستشفى"
+
+#. module: eg_clinic
+#: model:ir.model,name:eg_clinic.model_hospital_doctor
+msgid "Hospital Doctor"
+msgstr "طبيب المستشفى"
+
+#. module: eg_clinic
+#: model:ir.model,name:eg_clinic.model_hospital_patient
+msgid "Hospital Patient"
+msgstr "مريض المستشفى"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__id
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__id
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__id
+msgid "ID"
+msgstr "الرقم التعريفي"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_kanban
+msgid "ID:"
+msgstr "الرقم التعريفي:"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_exception_icon
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_exception_icon
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_exception_icon
+msgid "Icon"
+msgstr "أيقونة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__activity_exception_icon
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__activity_exception_icon
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة تشير إلى نشاط استثنائي."
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_needaction
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_needaction
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم التحقق، فالرسائل الجديدة تتطلب اهتمامك."
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_has_error
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_has_sms_error
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_has_error
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_has_sms_error
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_has_error
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم التحقق، فبعض الرسائل تواجه مشكلة في التسليم."
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_hospital_kids
+#: model:ir.ui.menu,name:eg_clinic.menu_kids
+msgid "Kids"
+msgstr "الأطفال"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: eg_clinic
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_appointment__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_doctor__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_patient__gender__male
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Male"
+msgstr "ذكر"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_male_patients
+#: model:ir.ui.menu,name:eg_clinic.menu_male_patients
+msgid "Male Patients"
+msgstr "المرضى الذكور"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_tree
+msgid "Mark As Done"
+msgstr "وضع علامة كمكتمل"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__name
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+msgid "Medicine"
+msgstr "الدواء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في توصيل الرسالة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__my_activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__my_activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "موعد نهاية نشاطي"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__doctor_name
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: eg_clinic
+#. odoo-python
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#, python-format
+msgid "Name %s Already Exists"
+msgstr "الاسم %s موجود بالفعل"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_kanban
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_kanban
+msgid "Name:"
+msgstr "الاسم:"
+
+#. module: eg_clinic
+#. odoo-python
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "موعد نهاية النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_summary
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_summary
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_type_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_type_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_needaction_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_needaction_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_has_error_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_has_error_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_needaction_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_needaction_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_has_error_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_has_error_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي تواجه مشكلة في التسليم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_hospital_kids
+#: model:ir.ui.menu,name:eg_clinic.menu_kids
+msgid "Kids"
+msgstr "الأطفال"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: eg_clinic
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_appointment__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_doctor__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_patient__gender__male
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Male"
+msgstr "ذكر"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_male_patients
+#: model:ir.ui.menu,name:eg_clinic.menu_male_patients
+msgid "Male Patients"
+msgstr "المرضى الذكور"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_tree
+msgid "Mark As Done"
+msgstr "وضع علامة كمكتمل"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__name
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+msgid "Medicine"
+msgstr "الدواء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في توصيل الرسالة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_ids
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__my_activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__my_activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "موعد نهاية نشاطي"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__doctor_name
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: eg_clinic
+#. odoo-python
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#, python-format
+msgid "Name %s Already Exists"
+msgstr "الاسم %s موجود بالفعل"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_kanban
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_kanban
+msgid "Name:"
+msgstr "الاسم:"
+
+#. module: eg_clinic
+#. odoo-python
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/appointment.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#: code:addons/eg_clinic/models/patient.py:0
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_date_deadline
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "موعد نهاية النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_summary
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_summary
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__activity_type_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__activity_type_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط القادم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_needaction_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_needaction_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_has_error_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_has_error_counter
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_needaction_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_needaction_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,help:eg_clinic.field_hospital_appointment__message_has_error_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_doctor__message_has_error_counter
+#: model:ir.model.fields,help:eg_clinic.field_hospital_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي تواجه مشكلة في التسليم"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_is_follower
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_hospital_kids
+#: model:ir.ui.menu,name:eg_clinic.menu_kids
+msgid "Kids"
+msgstr "الأطفال"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient____last_update
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_uid
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_create_appointment_wizard__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__write_date
+#: model:ir.model.fields,field_description:eg_clinic.field_search_appointment_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_main_attachment_id
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: eg_clinic
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_appointment__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_doctor__gender__male
+#: model:ir.model.fields.selection,name:eg_clinic.selection__hospital_patient__gender__male
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_doctor_search
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_patient_search
+msgid "Male"
+msgstr "ذكر"
+
+#. module: eg_clinic
+#: model:ir.actions.act_window,name:eg_clinic.action_male_patients
+#: model:ir.ui.menu,name:eg_clinic.menu_male_patients
+msgid "Male Patients"
+msgstr "المرضى الذكور"
+
+#. module: eg_clinic
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_tree
+msgid "Mark As Done"
+msgstr "وضع علامة كمكتمل"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_appointment_prescription_lines__name
+#: model_terms:ir.ui.view,arch_db:eg_clinic.view_appointment_form
+msgid "Medicine"
+msgstr "الدواء"
+
+#. module: eg_clinic
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_appointment__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_doctor__message_has_error
+#: model:ir.model.fields,field_description:eg_clinic.field_hospital_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في توصيل الرسالة"
